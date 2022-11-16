@@ -1,76 +1,80 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<NavLinks /> should match snapshot 1`] = `
-Array [
-  <a
-    class="sc-gswNZR iBAXyv"
-    href="#target1"
-    target="_self"
+<div>
+  <nav
+    class="sc-bcXHqe joCKQi"
   >
-    Link 1
-  </a>,
-  <a
-    class="sc-gswNZR iBAXyv"
-    href="#target2"
-    target="_self"
-  >
-    Link 2
-  </a>,
-  <a
-    class="sc-gswNZR iBAXyv"
-    href="#target3"
-    target="_self"
-  >
-    Link 3
-  </a>,
-  <a
-    class="sc-gswNZR iBAXyv"
-    href="#target4"
-    target="_self"
-  >
-    Link 4
-  </a>,
-  <a
-    class="sc-gswNZR iBAXyv"
-    href="#target5"
-    target="_self"
-  >
-    Link 5
-  </a>,
-  <a
-    class="sc-gswNZR iBAXyv"
-    href="#target6"
-    target="_self"
-  >
-    Link 6
-  </a>,
-  <a
-    class="sc-gswNZR iBAXyv"
-    href="#target7"
-    target="_self"
-  >
-    Link 7
-  </a>,
-  <a
-    class="sc-gswNZR iBAXyv"
-    href="#target8"
-    target="_self"
-  >
-    Link 8
-  </a>,
-  <a
-    class="sc-gswNZR iBAXyv"
-    href="#target9"
-    target="_self"
-  >
-    Link 9
-  </a>,
-  <a
-    class="sc-gswNZR iBAXyv"
-    href="#target10"
-    target="_self"
-  >
-    Link 10
-  </a>,
-]
+    <a
+      class="sc-gswNZR hjXyNe"
+      href="#target1"
+      target="_self"
+    >
+      Link 1
+    </a>
+    <a
+      class="sc-gswNZR hjXyNe"
+      href="#target2"
+      target="_self"
+    >
+      Link 2
+    </a>
+    <a
+      class="sc-gswNZR hjXyNe"
+      href="#target3"
+      target="_self"
+    >
+      Link 3
+    </a>
+    <a
+      class="sc-gswNZR hjXyNe"
+      href="#target4"
+      target="_self"
+    >
+      Link 4
+    </a>
+    <a
+      class="sc-gswNZR hjXyNe"
+      href="#target5"
+      target="_self"
+    >
+      Link 5
+    </a>
+    <a
+      class="sc-gswNZR hjXyNe"
+      href="#target6"
+      target="_self"
+    >
+      Link 6
+    </a>
+    <a
+      class="sc-gswNZR hjXyNe"
+      href="#target7"
+      target="_self"
+    >
+      Link 7
+    </a>
+    <a
+      class="sc-gswNZR hjXyNe"
+      href="#target8"
+      target="_self"
+    >
+      Link 8
+    </a>
+    <a
+      class="sc-gswNZR hjXyNe"
+      href="#target9"
+      target="_self"
+    >
+      Link 9
+    </a>
+    <a
+      class="sc-gswNZR hjXyNe"
+      href="#target10"
+      target="_self"
+    >
+      Link 10
+    </a>
+  </nav>
+</div>
 `;

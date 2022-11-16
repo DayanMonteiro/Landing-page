@@ -32,7 +32,7 @@ describe("<MenuLink />", () => {
     expect(screen.getByRole("link", { name: "Children" }))
       .toMatchInlineSnapshot(`
       <a
-        class="sc-bcXHqe emfxlz"
+        class="sc-bcXHqe fQivqG"
         href="http://localhost"
         target="_self"
       >

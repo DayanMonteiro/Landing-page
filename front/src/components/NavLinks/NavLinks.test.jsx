@@ -16,19 +16,20 @@ describe("<NavLinks />", () => {
     expect(screen.queryAllByText(/links/i)).toHaveLength(0);
   });
 
-  it("should render links", () => {
-    renderTheme(<NavLinks links={mock} />);
-    // expect(screen.getByText(/link 10/i).parentElement).toHaveStyleRule(
-    //   "flex-flow",
-    //   "column wrap",
-    //   {
-    //     media: theme.media.lteMedium,
-    //   }
-    // );
-  });
+  // it("should render links", () => {
+  //   renderTheme(<NavLinks links={mock} />);
+  //   screen.debug(screen.getByText(/link/i).parentElement);
+  // expect(screen.getByText(/link 10/i).parentElement).toHaveStyleRule(
+  //   "flex-flow",
+  //   "column wrap",
+  //   {
+  //     media: theme.media.lteMedium,
+  //   }
+  // );
+  // });
 
   it("should match snapshot", () => {
-    renderTheme(<NavLinks links={mock} />);
-    expect(screen.getAllByRole("link")).toMatchSnapshot();
+    const { container } = renderTheme(<NavLinks links={mock} />);
+    expect(container).toMatchSnapshot();
   });
 });
