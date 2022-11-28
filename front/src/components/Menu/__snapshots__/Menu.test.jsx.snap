@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
+<div>
+  <button
+    aria-label="Open/Close menu"
+    class="sc-eDvSVe kKSPOx"
+  >
+    <svg
+      aria-hidden="true"
+      aria-label="Open menu"
+      class="StyledIconBase-sc-ea9ulj-0 dXOYdB"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0V0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </button>
+  <div
+    class="sc-dkrFOg cotVJk"
+  >
+    <div
+      class="sc-bcXHqe fYEBfH"
+    >
+      <div
+        class="sc-hLBbgP igNlGA"
+      >
+        <h1
+          class="sc-gswNZR cEMDTL"
+        >
+          <a
+            class="sc-jSUZER bcDRfB"
+            href="#target"
+          >
+            Logo
+          </a>
+        </h1>
+        <nav
+          aria-label="Main menu"
+          class="sc-gKPRtg aCawW"
+        >
+          <a
+            class="sc-iBYQkv eeLCEt"
+            href="#target1"
+            target="_self"
+          >
+            Link 1
+          </a>
+          <a
+            class="sc-iBYQkv eeLCEt"
+            href="#target2"
+            target="_self"
+          >
+            Link 2
+          </a>
+          <a
+            class="sc-iBYQkv eeLCEt"
+            href="#target3"
+            target="_self"
+          >
+            Link 3
+          </a>
+          <a
+            class="sc-iBYQkv eeLCEt"
+            href="#target4"
+            target="_self"
+          >
+            Link 4
+          </a>
+          <a
+            class="sc-iBYQkv eeLCEt"
+            href="#target5"
+            target="_self"
+          >
+            Link 5
+          </a>
+          <a
+            class="sc-iBYQkv eeLCEt"
+            href="#target6"
+            target="_self"
+          >
+            Link 6
+          </a>
+          <a
+            class="sc-iBYQkv eeLCEt"
+            href="#target7"
+            target="_self"
+          >
+            Link 7
+          </a>
+          <a
+            class="sc-iBYQkv eeLCEt"
+            href="#target8"
+            target="_self"
+          >
+            Link 8
+          </a>
+          <a
+            class="sc-iBYQkv eeLCEt"
+            href="#target9"
+            target="_self"
+          >
+            Link 9
+          </a>
+          <a
+            class="sc-iBYQkv eeLCEt"
+            href="#target10"
+            target="_self"
+          >
+            Link 10
+          </a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+`;

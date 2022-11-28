@@ -12,7 +12,7 @@ describe("<NavLinks />", () => {
   });
 
   it("should not render links", () => {
-    renderTheme(<NavLinks />);
+    renderTheme(<NavLinks links={mock} />);
     expect(screen.queryAllByText(/links/i)).toHaveLength(0);
   });
 
