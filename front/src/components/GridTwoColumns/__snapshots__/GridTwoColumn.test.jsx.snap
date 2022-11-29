@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridTwoColumns /> should render two column grid 1`] = `
+<div>
+  <div
+    class="sc-gKPRtg fKSqdT"
+    id=""
+  >
+    <div
+      class="sc-jSUZER nPxqH"
+    >
+      <div
+        class="sc-gswNZR kQuWOI"
+      >
+        <div
+          class="sc-dkrFOg ehxLXZ"
+        >
+          <h2
+            class="sc-bcXHqe aTAOr"
+          >
+            Grid two columns
+          </h2>
+          <p
+            class="sc-iBYQkv hDEBhX"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magnam culpa eveniet doloribus harum? Ipsam, a necessitatibus? Sequi sunt accusantium quod, animi iure a, aliquid dolor ea vel magni dolore?
+          </p>
+        </div>
+        <div
+          class="sc-hLBbgP fTgiIa"
+        >
+          <img
+            alt="Grid two columns"
+            class="sc-eDvSVe ktaJny"
+            src="assets/images/javascript.svg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

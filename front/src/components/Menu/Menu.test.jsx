@@ -30,10 +30,10 @@ describe("<Menu />", () => {
     const button = screen.getByLabelText("Open/Close menu");
     const menuContainer = button.nextSibling;
 
-    //  expect(button).toHaveStyleRule("display", "none");
-    //   expect(button).toHaveStyleRule("display", "flex", {
-    //     media: theme.media.lteMedium,
-    //   });
+    // expect(button).toHaveStyleRule("display", "none");
+    // expect(button).toHaveStyleRule("display", "flex", {
+    //   media: theme.media.lteMedium,
+    // });
 
     // expect(menuContainer).toHaveStyleRule("opacity", "0", {
     //   media: theme.media.lteMedium,
@@ -53,11 +53,11 @@ describe("<Menu />", () => {
     expect(screen.getByLabelText("Open menu")).toBeInTheDocument();
   });
 
-  // it("should not render links", () => {
-  //   const { container } = renderTheme(<Menu logoData={logoData} />);
-  //   expect(
-  //     screen.queryByRole("navigation", { name: "Main menu" }).firstChild
-  //   ).not.toBeInTheDocument();
-  //   expect(container).toMatchSnapshot();
-  // });
+  it("should not render links", () => {
+    const { container } = renderTheme(<Menu logoData={logoData} />);
+    expect(
+      screen.queryByRole("navigation", { name: "Main menu" }).firstChild
+    ).not.toBeInTheDocument();
+    expect(container).toMatchSnapshot();
+  });
 });
