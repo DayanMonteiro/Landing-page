@@ -1,15 +1,15 @@
 import P from "prop-types";
-import * as Styled from "./styles";
+import * as S from "./styles";
 import { TextComponent } from "../TextComponent";
 import { SectionContainer } from "../SectionContainer";
 
 export const Footer = ({ footerHtml }) => {
   return (
-    <Styled.Container>
+    <S.Container>
       <SectionContainer>
         <TextComponent>{footerHtml}</TextComponent>
       </SectionContainer>
-    </Styled.Container>
+    </S.Container>
   );
 };
 

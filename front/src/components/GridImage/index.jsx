@@ -2,7 +2,7 @@ import P from "prop-types";
 import { Heading } from "../Heading";
 import { SectionBackground } from "../SectionBackground";
 import { TextComponent } from "../TextComponent";
-import * as Styled from "./styles";
+import * as S from "./styles";
 
 export const GridImage = ({
   title,
@@ -13,19 +13,19 @@ export const GridImage = ({
 }) => {
   return (
     <SectionBackground background={background} sectionId={sectionId}>
-      <Styled.Container>
+      <S.Container>
         <Heading size="huge" uppercase colorDark={!background} as="h2">
           {title}
         </Heading>
         <TextComponent>{description}</TextComponent>
-        <Styled.Grid>
+        <S.Grid>
           {grid.map((el) => (
-            <Styled.GridElement key={`${el.srcImg}${el.altText}`}>
-              <Styled.Image src={el.srcImg} alt={el.altText} />
-            </Styled.GridElement>
+            <S.GridElement key={`${el.srcImg}${el.altText}`}>
+              <S.Image src={el.srcImg} alt={el.altText} />
+            </S.GridElement>
           ))}
-        </Styled.Grid>
-      </Styled.Container>
+        </S.Grid>
+      </S.Container>
     </SectionBackground>
   );
 };
