@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridImage /> should render with background 1`] = `
+<div>
+  <div
+    class="sc-dkrFOg jjSKXZ"
+    id=""
+  >
+    <div
+      class="sc-gswNZR cnlyNP"
+    >
+      <div
+        class="sc-eDvSVe dJmGzR"
+      >
+        <h2
+          class="sc-bcXHqe aTAOr"
+        >
+          My grid
+        </h2>
+        <p
+          class="sc-hLBbgP gqgGWG"
+        >
+          Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
+        </p>
+        <div
+          class="sc-jSUZER bjCmUy"
+        >
+          <div
+            class="sc-gKPRtg jceNlf"
+          >
+            <img
+              alt="Teste 1"
+              class="sc-iBYQkv dgCZMT"
+              src="https://source.unsplash.com/random/800x800?r=1"
+            />
+          </div>
+          <div
+            class="sc-gKPRtg jceNlf"
+          >
+            <img
+              alt="Teste 2"
+              class="sc-iBYQkv dgCZMT"
+              src="https://source.unsplash.com/random/800x800?r=2"
+            />
+          </div>
+          <div
+            class="sc-gKPRtg jceNlf"
+          >
+            <img
+              alt="Teste 3"
+              class="sc-iBYQkv dgCZMT"
+              src="https://source.unsplash.com/random/800x800?r=3"
+            />
+          </div>
+          <div
+            class="sc-gKPRtg jceNlf"
+          >
+            <img
+              alt="Teste 4"
+              class="sc-iBYQkv dgCZMT"
+              src="https://source.unsplash.com/random/800x800?r=4"
+            />
+          </div>
+          <div
+            class="sc-gKPRtg jceNlf"
+          >
+            <img
+              alt="Teste 5"
+              class="sc-iBYQkv dgCZMT"
+              src="https://source.unsplash.com/random/800x800?r=5"
+            />
+          </div>
+          <div
+            class="sc-gKPRtg jceNlf"
+          >
+            <img
+              alt="Teste 6"
+              class="sc-iBYQkv dgCZMT"
+              src="https://source.unsplash.com/random/800x800?r=6"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<GridImage /> should render without background 1`] = `
+<div>
+  <div
+    class="sc-dkrFOg jjSKXZ"
+    id=""
+  >
+    <div
+      class="sc-gswNZR cnlyNP"
+    >
+      <div
+        class="sc-eDvSVe dJmGzR"
+      >
+        <h2
+          class="sc-bcXHqe aTAOr"
+        >
+          My grid
+        </h2>
+        <p
+          class="sc-hLBbgP gqgGWG"
+        >
+          Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
+        </p>
+        <div
+          class="sc-jSUZER bjCmUy"
+        >
+          <div
+            class="sc-gKPRtg jceNlf"
+          >
+            <img
+              alt="Teste 1"
+              class="sc-iBYQkv dgCZMT"
+              src="https://source.unsplash.com/random/800x800?r=1"
+            />
+          </div>
+          <div
+            class="sc-gKPRtg jceNlf"
+          >
+            <img
+              alt="Teste 2"
+              class="sc-iBYQkv dgCZMT"
+              src="https://source.unsplash.com/random/800x800?r=2"
+            />
+          </div>
+          <div
+            class="sc-gKPRtg jceNlf"
+          >
+            <img
+              alt="Teste 3"
+              class="sc-iBYQkv dgCZMT"
+              src="https://source.unsplash.com/random/800x800?r=3"
+            />
+          </div>
+          <div
+            class="sc-gKPRtg jceNlf"
+          >
+            <img
+              alt="Teste 4"
+              class="sc-iBYQkv dgCZMT"
+              src="https://source.unsplash.com/random/800x800?r=4"
+            />
+          </div>
+          <div
+            class="sc-gKPRtg jceNlf"
+          >
+            <img
+              alt="Teste 5"
+              class="sc-iBYQkv dgCZMT"
+              src="https://source.unsplash.com/random/800x800?r=5"
+            />
+          </div>
+          <div
+            class="sc-gKPRtg jceNlf"
+          >
+            <img
+              alt="Teste 6"
+              class="sc-iBYQkv dgCZMT"
+              src="https://source.unsplash.com/random/800x800?r=6"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
