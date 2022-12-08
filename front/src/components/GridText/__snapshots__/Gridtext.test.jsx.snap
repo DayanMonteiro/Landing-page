@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridText /> should render with background 1`] = `
+<div>
+  <div
+    class="sc-gKPRtg fKSqdT"
+    id=""
+  >
+    <div
+      class="sc-jSUZER nPxqH"
+    >
+      <div
+        class="sc-dkrFOg cQxgyZ"
+      >
+        <h2
+          class="sc-bcXHqe aTAOr"
+        >
+          My grid
+        </h2>
+        <p
+          class="sc-gswNZR ddvriM"
+        >
+          Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
+        </p>
+        <div
+          class="sc-hLBbgP ketthe"
+        >
+          <div
+            class="sc-eDvSVe hrYwgi"
+          >
+            <h3
+              class="sc-bcXHqe etAJmc"
+            >
+              Teste 1
+            </h3>
+            <p
+              class="sc-gswNZR ddvriM"
+            >
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+            </p>
+          </div>
+          <div
+            class="sc-eDvSVe hrYwgi"
+          >
+            <h3
+              class="sc-bcXHqe etAJmc"
+            >
+              Teste 2
+            </h3>
+            <p
+              class="sc-gswNZR ddvriM"
+            >
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+            </p>
+          </div>
+          <div
+            class="sc-eDvSVe hrYwgi"
+          >
+            <h3
+              class="sc-bcXHqe etAJmc"
+            >
+              Teste 3
+            </h3>
+            <p
+              class="sc-gswNZR ddvriM"
+            >
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<GridText /> should render without background 1`] = `
+<div>
+  <div
+    class="sc-gKPRtg fKSqdT"
+    id=""
+  >
+    <div
+      class="sc-jSUZER nPxqH"
+    >
+      <div
+        class="sc-dkrFOg cQxgyZ"
+      >
+        <h2
+          class="sc-bcXHqe aTAOr"
+        >
+          My grid
+        </h2>
+        <p
+          class="sc-gswNZR ddvriM"
+        >
+          Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
+        </p>
+        <div
+          class="sc-hLBbgP ketthe"
+        >
+          <div
+            class="sc-eDvSVe hrYwgi"
+          >
+            <h3
+              class="sc-bcXHqe etAJmc"
+            >
+              Teste 1
+            </h3>
+            <p
+              class="sc-gswNZR ddvriM"
+            >
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+            </p>
+          </div>
+          <div
+            class="sc-eDvSVe hrYwgi"
+          >
+            <h3
+              class="sc-bcXHqe etAJmc"
+            >
+              Teste 2
+            </h3>
+            <p
+              class="sc-gswNZR ddvriM"
+            >
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+            </p>
+          </div>
+          <div
+            class="sc-eDvSVe hrYwgi"
+          >
+            <h3
+              class="sc-bcXHqe etAJmc"
+            >
+              Teste 3
+            </h3>
+            <p
+              class="sc-gswNZR ddvriM"
+            >
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
