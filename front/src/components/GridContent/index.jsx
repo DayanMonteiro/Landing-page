@@ -30,4 +30,3 @@ GridContent.propTypes = {
   background: P.bool,
   sectionId: P.string,
 };
-// Footer;

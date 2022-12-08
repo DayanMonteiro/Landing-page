@@ -17,4 +17,3 @@ describe("<GridContent />", () => {
     expect(container).toMatchSnapshot();
   });
 });
-// Footer;

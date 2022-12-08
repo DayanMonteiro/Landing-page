@@ -15,4 +15,4 @@ export const Template = (args) => {
     </div>
   );
 };
-// Footer
+Footer;
