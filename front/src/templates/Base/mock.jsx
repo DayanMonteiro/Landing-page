@@ -5,6 +5,7 @@ import gridMock from "../../components/GridText/mock";
 
 export default {
   title: "Templates/Base",
+  // eslint-disable-next-line no-undef
   component: Base,
   args: {
     children: (
