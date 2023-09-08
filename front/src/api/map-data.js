@@ -18,6 +18,6 @@ export const mapData = (pagesData = [{}]) => {
   });
 };
 
-const { inspect } = require("util");
-const dados = require("./dados.json");
-console.log(inspect(mapData(dados), null, null, true));
+// const { inspect } = require("util");
+// const dados = require("./dados.json");
+// console.log(inspect(mapData(dados), null, null, true));
