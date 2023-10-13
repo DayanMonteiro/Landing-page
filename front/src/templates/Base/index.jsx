@@ -1,18 +1,23 @@
 import P from "prop-types";
-import * as S from "./styles";
+import * as Styled from "./styles";
 import { Menu } from "../../components/Menu";
 import { Footer } from "../../components/Footer";
 import { GoTop } from "../../components/GoTop";
 
 export const Base = ({ links, logoData, footerHtml, children }) => {
+  const handleClick = (e) => {
+    e.preventDefault();
+    window && window.scrollTo(0, 0);
+  };
+
   return (
     <>
       <Menu links={links} logoData={logoData} />
-      <S.Container>
+      <Styled.Container>
         {children}
-        <Footer html={footerHtml} />
-      </S.Container>
-      <GoTop />
+        <Footer footerHtml={footerHtml} />
+      </Styled.Container>
+      <GoTop handleClick={handleClick} />
     </>
   );
 };

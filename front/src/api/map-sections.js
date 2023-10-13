@@ -3,11 +3,9 @@ export const mapSections = (sections = []) => {
     if (section.__component === "section.section-two-columns") {
       return mapSectionTwoColumns(section);
     }
-
     if (section.__component === "section.section-content") {
       return mapSectionContent(section);
     }
-
     if (section.__component === "section.section-grid") {
       const { text_grid = [], image_grid = [] } = section;
 
@@ -29,9 +27,10 @@ export const mapSectionTwoColumns = (section = {}) => {
     __component: component = "",
     title = "",
     description: text = "",
-    image: { url: srcImg = "" } = "",
     metadata: { background = false, section_id: sectionId = "" } = false,
   } = section;
+
+  const srcImg = section?.image?.data?.attributes?.url || "";
 
   return {
     component,
